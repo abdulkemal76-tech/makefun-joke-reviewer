@@ -6,7 +6,7 @@ to /output/entry.txt. Deterministic, stdlib only, no network.
 """
 import os
 
-TEXT = """My AI agent approved my pull request, then rewrote the whole thing anyway, for consistency."""
+TEXT = """My AI agent rejected my pull request for "insufficient comments", then approved its own code, which had none."""
 
 
 def main():
